@@ -1,0 +1,346 @@
+body {
+    background-color: black;
+    display: block;
+    font-family: 'Sono', sans-serif;
+ } 
+ 
+ /* CONTAINER*/
+ 
+ 
+ #header h2 span {
+     color:  #18d26e;
+     font-weight: bold;
+     padding-bottom: 6px;
+ }
+ 
+ .profile-pic img {
+     height: 97.8vh;
+     width: 35%;
+     float: right;
+     margin-right: 100px;
+    
+ }
+ 
+ 
+ #header h2{
+     font-size: 40px;
+     color: White;
+     padding: 50px;
+     margin-left: 5%;
+     padding-top: 0;
+ }
+ 
+ #header h1 a {
+     font-size: 52px;
+     padding: 50px;
+     color: white;
+     line-height: 1;
+     display: inline-block;
+     margin-left: 5%;
+     margin-top: 15%;
+     text-decoration: none;
+     
+ }
+ 
+ #header h1 a:hover {
+     color: #18d26e;
+ 
+ }
+ 
+ .nav-menu li {
+     display: inline-block;
+     position: relative;
+     color: rgba(255, 255, 255, 0.7);
+     font-size: 23px;
+     font-weight: 400;
+ 
+ }
+ 
+ 
+ .nav-menu ul {
+     margin-left: 5%;
+     display: flex;
+     margin-top: -10px;
+     padding: 50px;
+     padding-top: 0;
+     gap: 2%;
+     text-decoration: none;
+ }
+ 
+ .nav-menu a {
+     color: white;
+ 
+ }
+ 
+ .container h1 a {
+     transition: .3s;
+ }
+ 
+ .nav-menu a:hover {
+     color: #18d26e;
+ }
+ 
+ /* CONTAINER*/
+ 
+ @media (max-width: 1250px) {
+ 
+    .containers {
+        margin: 1rem;
+    }
+
+    .about-menu li {
+         display: block;
+         justify-content: center;
+         align-items: center;
+         gap: 1px;
+         text-align: center;
+         font-size: 2px;
+         font-weight: bold;
+   }
+
+   .resume-menu {
+        display: block;
+         justify-content: center;
+         align-items: center;
+         gap: 1px;
+         text-align: center;
+         font-size: 2px;
+         font-weight: bold;
+   }
+
+     .profile-pic img {
+         display: none;
+         margin: 0 auto;
+     }
+     
+     #header {
+         flex-direction: column;
+         height: 100%;
+         text-align: center;
+     }
+     
+     .container h1, h2 {
+         margin-top: 0;
+         text-align: center;
+     }
+ 
+    
+     .nav-menu {  
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 1px;
+         text-align: center;
+         font-size: 2px;
+         font-weight: bold;
+     }   
+     
+     .nav-menu li a:hover {
+         color: #18d26e;
+     }
+
+     #header-resume {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+     }
+    
+     .resume {
+        justify-content: center;
+        align-items: center;
+     }
+
+     .resume-item li {
+        display: flex;
+        font-size: 10px;
+        color: white;
+        margin-top: 10px;
+    }
+    
+  
+}
+
+ @media (max-width: 576px) {
+    .nav-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 5px;
+        font-weight: bold;
+    }
+
+    .containers {
+        margin: 1rem;
+    }
+
+    .about-menu {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+        text-align: center;
+        font-size: 2px;
+        font-weight: bold;
+   }
+   
+ }
+
+
+ /* ABOUT ME */
+
+.containers {
+    margin: 0;
+}
+
+.about-menu {
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.7);
+}
+.about-menu a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.about-menu li {
+    float: right;
+    padding: 10px 10px;
+    list-style-type: none;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    margin-right: 1rem;
+}
+
+.about-menu a:hover {
+    color: #18d26e;
+}
+
+.section-title h2{
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 40px;
+}
+
+.about-me {
+    margin-left: 3rem;
+}
+.section-title p {
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 30px;
+}
+
+.about-prof img {
+    height: 300px;
+    width: 300px;
+}
+
+.intro h3, p{
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 20px;
+}
+
+
+/*RESUME*/
+
+
+#header-resume {
+    margin: 3rem;
+}
+
+.resume-menu {
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.7);
+}
+.resume-menu a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.resume-menu li{
+        float: right;
+        padding: 10px 10px;
+        list-style-type: none;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 400;
+        margin-right: 1rem;
+    
+}
+
+.resume-menu a:hover {
+    color: #18d26e;
+}
+
+
+.resume h4{
+    color: white;
+}
+
+.resume h1{
+    color: white;
+}
+
+.resume h2{
+    color: white;
+}
+
+section .container {
+    background: rgba(0, 0, 0, 0.616);
+    padding: 30px;
+}
+
+.resume-item li {
+    display: flex;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/*RESUME*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+ 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+
+.containerr {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    justify-items: center; 
+    align-items: center; 
+  }
+  
+.item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    height: 100%; 
+    box-sizing: border-box;
+  }
+
+.socialmedia {
+    display: flex;
+}
